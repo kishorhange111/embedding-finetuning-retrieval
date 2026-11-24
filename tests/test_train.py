@@ -4,7 +4,28 @@ import pytest
 
 pytest.importorskip("sentence_transformers")
 
-WORDS = "tax stock bond loan rate bank fund price save pay bread cake oven flour sugar salt milk egg rice tea".split()
+WORDS = [
+    "tax",
+    "stock",
+    "bond",
+    "loan",
+    "rate",
+    "bank",
+    "fund",
+    "price",
+    "save",
+    "pay",
+    "bread",
+    "cake",
+    "oven",
+    "flour",
+    "sugar",
+    "salt",
+    "milk",
+    "egg",
+    "rice",
+    "tea",
+]
 
 
 @pytest.fixture
